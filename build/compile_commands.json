@@ -1,0 +1,37 @@
+[
+  {
+    "directory": "/home/solairaj/office/io.github.rajsolai.linsta/build",
+    "command": "valac -C --debug --debug --pkg webkit2gtk-4.0 --pkg gtk+-3.0 --pkg glib-2.0 --color=always --directory io.github.rajsolai.linsta@exe --basedir ../ --gresources=../data/io.github.rajsolai.linsta.gresource.xml ../src/Application.vala ../src/Services/config.vala ../src/Services/settings.vala ../src/Widgets/splash.vala ../src/Widgets/webview.vala",
+    "file": "../src/Application.vala"
+  },
+  {
+    "directory": "/home/solairaj/office/io.github.rajsolai.linsta/build",
+    "command": "cc -Iio.github.rajsolai.linsta@exe -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/webkitgtk-4.0 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g '-DGETTEXT_PACKAGE=\"io.github.rajsolai.linsta\"' -pthread  -MD -MQ 'io.github.rajsolai.linsta@exe/meson-generated_.._as-resources.c.o' -MF 'io.github.rajsolai.linsta@exe/meson-generated_.._as-resources.c.o.d' -o 'io.github.rajsolai.linsta@exe/meson-generated_.._as-resources.c.o' -c as-resources.c",
+    "file": "as-resources.c"
+  },
+  {
+    "directory": "/home/solairaj/office/io.github.rajsolai.linsta/build",
+    "command": "cc -Iio.github.rajsolai.linsta@exe -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/webkitgtk-4.0 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -g '-DGETTEXT_PACKAGE=\"io.github.rajsolai.linsta\"' -pthread  -MD -MQ 'io.github.rajsolai.linsta@exe/meson-generated_src_Application.c.o' -MF 'io.github.rajsolai.linsta@exe/meson-generated_src_Application.c.o.d' -o 'io.github.rajsolai.linsta@exe/meson-generated_src_Application.c.o' -c 'io.github.rajsolai.linsta@exe/src/Application.c'",
+    "file": "io.github.rajsolai.linsta@exe/src/Application.c"
+  },
+  {
+    "directory": "/home/solairaj/office/io.github.rajsolai.linsta/build",
+    "command": "cc -Iio.github.rajsolai.linsta@exe -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/webkitgtk-4.0 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -g '-DGETTEXT_PACKAGE=\"io.github.rajsolai.linsta\"' -pthread  -MD -MQ 'io.github.rajsolai.linsta@exe/meson-generated_src_Services_config.c.o' -MF 'io.github.rajsolai.linsta@exe/meson-generated_src_Services_config.c.o.d' -o 'io.github.rajsolai.linsta@exe/meson-generated_src_Services_config.c.o' -c 'io.github.rajsolai.linsta@exe/src/Services/config.c'",
+    "file": "io.github.rajsolai.linsta@exe/src/Services/config.c"
+  },
+  {
+    "directory": "/home/solairaj/office/io.github.rajsolai.linsta/build",
+    "command": "cc -Iio.github.rajsolai.linsta@exe -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/webkitgtk-4.0 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -g '-DGETTEXT_PACKAGE=\"io.github.rajsolai.linsta\"' -pthread  -MD -MQ 'io.github.rajsolai.linsta@exe/meson-generated_src_Services_settings.c.o' -MF 'io.github.rajsolai.linsta@exe/meson-generated_src_Services_settings.c.o.d' -o 'io.github.rajsolai.linsta@exe/meson-generated_src_Services_settings.c.o' -c 'io.github.rajsolai.linsta@exe/src/Services/settings.c'",
+    "file": "io.github.rajsolai.linsta@exe/src/Services/settings.c"
+  },
+  {
+    "directory": "/home/solairaj/office/io.github.rajsolai.linsta/build",
+    "command": "cc -Iio.github.rajsolai.linsta@exe -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/webkitgtk-4.0 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -g '-DGETTEXT_PACKAGE=\"io.github.rajsolai.linsta\"' -pthread  -MD -MQ 'io.github.rajsolai.linsta@exe/meson-generated_src_Widgets_splash.c.o' -MF 'io.github.rajsolai.linsta@exe/meson-generated_src_Widgets_splash.c.o.d' -o 'io.github.rajsolai.linsta@exe/meson-generated_src_Widgets_splash.c.o' -c 'io.github.rajsolai.linsta@exe/src/Widgets/splash.c'",
+    "file": "io.github.rajsolai.linsta@exe/src/Widgets/splash.c"
+  },
+  {
+    "directory": "/home/solairaj/office/io.github.rajsolai.linsta/build",
+    "command": "cc -Iio.github.rajsolai.linsta@exe -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/webkitgtk-4.0 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -g '-DGETTEXT_PACKAGE=\"io.github.rajsolai.linsta\"' -pthread  -MD -MQ 'io.github.rajsolai.linsta@exe/meson-generated_src_Widgets_webview.c.o' -MF 'io.github.rajsolai.linsta@exe/meson-generated_src_Widgets_webview.c.o.d' -o 'io.github.rajsolai.linsta@exe/meson-generated_src_Widgets_webview.c.o' -c 'io.github.rajsolai.linsta@exe/src/Widgets/webview.c'",
+    "file": "io.github.rajsolai.linsta@exe/src/Widgets/webview.c"
+  }
+]
