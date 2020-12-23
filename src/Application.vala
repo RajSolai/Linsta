@@ -64,6 +64,12 @@ public class Application : Gtk.Application {
             // 5 seconds of timeout keeps the white screen away
         });
         
+        var header = new Gtk.HeaderBar();
+        header.get_style_context().add_class("default-decoration");
+        header.get_style_context().add_class("flat");
+		header.set_show_close_button(true);
+        
+        main_window.set_titlebar(header);
         main_window.default_height = 570;
         main_window.default_width = 420;
         main_window.title = "Linsta";

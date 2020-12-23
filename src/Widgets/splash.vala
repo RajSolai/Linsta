@@ -24,6 +24,7 @@ public class Widgets.Splash : Gtk.EventBox {
         var box = new Gtk.Box (Gtk.Orientation.VERTICAL, 5);
         box.get_style_context ().add_class ("splash_box");
         var label = new Gtk.Label("Loading");
+        label.get_style_context ().add_class ("h2");
         var spinner = new Gtk.Spinner();
         spinner.start();
         box.pack_start(label,false,true,10);
